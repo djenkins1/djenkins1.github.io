@@ -1,0 +1,82 @@
+div.dummy-card
+{
+    visibility: hidden;
+}
+
+#waiting
+{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#mainBodyDown
+{
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.card-img-top 
+{
+    width: 100%;
+}
+
+a.card-link
+{
+    color: white;
+    text-decoration: underline;
+}
+
+a.card-link:visited
+{
+    color: black;
+    text-decoration: underline;    
+}
+
+a.card-link:hover
+{
+    color: gray;
+    text-decoration: underline;
+}
+
+.card-deck
+{
+    width: 100%;
+    margin-bottom: 5px !important;
+}
+
+.card
+{
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    display: inline-block;
+}
+
+.tt-suggestion 
+{
+	display: block;
+    border-bottom: solid black 1px;
+    background: lightgray;
+    width: 15em;
+    padding: 0.5em;
+}
+
+div.carousel-item
+{
+    background-color: black;
+}
+
+div.carousel-item > img
+{
+    width: 50%; 
+    margin: 0 auto
+}
+
+#topPostCarousel
+{
+    display: none;
+}
+
+div.carousel-caption > h3,div.carousel-caption > p
+{
+    color: black;
+}
